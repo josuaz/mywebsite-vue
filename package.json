@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "jquery": "^3.6.0",
+    "typewriter-vue": "^0.5.19",
     "vue": "^3.2.25",
     "vue-router": "^4.0.13",
+    "vue-writer": "^1.2.0",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
