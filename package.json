@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.0",
+    "swiper": "^8.3.2",
     "typewriter-vue": "^0.5.19",
     "vue": "^3.2.25",
     "vue-router": "^4.0.13",
