@@ -1,5 +1,6 @@
 .cube {
     position: absolute;
+    z-index: 0;
     top: 80vh;
     left: 45vw;
     width: 10px;
