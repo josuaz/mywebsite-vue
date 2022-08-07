@@ -16,9 +16,8 @@
 </template>
 
 <script>
-
-export default {
-
+if(window.scrollTop >= 0){
+    console.log('scrolled');
 }
 </script>
 
