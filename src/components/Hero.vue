@@ -1,5 +1,5 @@
 <template>
-<div class="overflow-hidden bg-gradient-to-r from-blue-900 to-purple-900 flex flex-row flex-wrap min-h-screen pb-2"> 
+<div id="home" class="overflow-hidden bg-gradient-to-r from-blue-900 to-purple-900 flex flex-row flex-wrap min-h-screen pb-2"> 
         <div class="relative w-full md:w-1/2">
             <div class="text-white flex flex-col h-full justify-center mb-auto text-2xl pl-6 lg:pl-24 z-[1000] pt-24 pb-16">
                 <h1 class="text-6xl font-bold z-10">Hi!</h1>
