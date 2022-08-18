@@ -16,18 +16,21 @@
             <div class="cube"></div>
         </div>
         <div class="w-full md:w-1/2 px-2 lg:pr-24 flex flex-col justify-center">
-            <div class="z-30 flex relative">
-                <button class="p-2 rounded-full bottom-6 left-6 absolute bg-gradient-to-r from-blue-900 to-purple-900 text-white border-neutral-400 border font-semibold hover:from-blue-700 hover:to-purple-700 duration-150">
-                    <span>Hire me!</span>
-                </button>
-                <a href="/" class=" hover:border-black border-b-2 bottom-8 duration-150 left-32 absolute flex font-semibold border-transparent">Project
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                </a>
-                <img :src="img" class="w-48 h-48 object-cover object-top rounded-full bg-white p-1 ml-auto mr-6" alt="">
+            <div class="z-30 flex flex-row flex-wrap">
+                <img :src="img" class="w-48 h-48 object-cover object-top rounded-full bg-white p-1 mx-auto lg:mr-auto lg:ml-6" alt="">
+                <div class="w-full justify-around lg:justify-end md:w-min grow flex-row flex pb-5 pr-5 relative">
+                    <div class="mt-auto p-2 pb-1 mr-5">
+                        <button class="rounded-full font-semibold peer flex flex-row p-2 duration-300 bg-gradient-to-r from-transparent to-transparent hover:text-white hover:from-blue-900 hover:to-purple-900">Projects
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="rounded-full h-min mt-auto font-semibold pb-3 p-2 duration-300 bg-gradient-to-r from-transparent to-transparent hover:text-white hover:from-blue-900 hover:to-purple-900">Hire me!</button>
+                </div>
+                
             </div>
-            <div class="p-2 rounded-md bg-white z-20 pt-24 -mt-[5.5rem]">
+            <div class="p-2 rounded-md bg-white z-20 pt-36 lg:pt-24 -mt-[9.5rem] lg:-mt-[5.5rem]">
                 <p class="text-center text-xl font-semibold"> 
                     Hi, I'm Joshua Aliansa Pranajaya, My experiences covers about:
                 </p>
