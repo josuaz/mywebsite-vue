@@ -1,10 +1,10 @@
 <template lang="">
     <div class="h-min lg:h-screen flex flex-col">
-        <div id="portfolio" class="pt-12 pb-3">
+        <div id="portfolio" class="pt-16 pb-3">
         <h1 class="text-4xl font-semibold text-center">Portfolio</h1>
     </div>
-    <div class="w-full grow bg-cover bg-right-top flex pt-48" :style="{'background-image': `url(${gunungan})`}">
-        <div class="bg-white shadow-md rounded-md hover:border-[#f3310e] border-transparent duration-150 border border-l-0 rounded-l-none w-full mt-auto mb-5 lg:w-1/2 h-min py-5 pl-12 pr-24 flex flex-col justify-center">
+    <div class="w-full grow bg-cover bg-right-top flex pt-12" :style="{'background-image': `url(${gunungan})`}">
+        <div class="bg-white/50 lg:bg-white shadow-md rounded-md rounded-l-none w-full mt-auto mb-5 lg:w-1/2 h-min py-5 pl-12 pr-24 flex flex-col justify-center">
             <h1 class="font-bold text-2xl">
                 <a href="https://toko-gunungan.com" target="_blank" class="flex items-center text-[#f3310e] hover:text-[#ff2600]">
                     GUNUNGAN

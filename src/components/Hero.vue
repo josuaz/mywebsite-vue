@@ -30,7 +30,7 @@
                 </div>
                 
             </div>
-            <div class="p-2 rounded-md bg-white z-20 pt-36 lg:pt-24 -mt-[9.5rem] lg:-mt-[5.5rem]">
+            <div class="p-2 rounded-md bg-white shadow-lg shadow-black/50 z-20 pt-36 lg:pt-24 -mt-[9.5rem] lg:-mt-[5.5rem]">
                 <p class="text-center text-xl font-semibold"> 
                     Hi, I'm Joshua Aliansa Pranajaya, My experiences covers about:
                 </p>

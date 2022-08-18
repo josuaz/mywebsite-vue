@@ -1,5 +1,5 @@
 <template>
-    <div id="navbar" :style="opacity" :class="textColor" class="duration-300 flex fixed w-full px-5 py-2 flex-row z-40 bg-white/[20%]">
+    <div id="navbar" :style="opacity" :class="navClass" class=" border-b-2 flex fixed w-full px-5 py-2 flex-row z-40 bg-white/[20%]">
         <a href="#home" class="mx-auto md:mx-0 font-semibold text-xl p-1 rounded-md hover:bg-white-20 duration-150">Joshua</a>
         <ul v-scroll-spy-active v-scroll-spy-link class="my-auto md:flex flex-row mx-auto hidden">
             <li><a href="#home" class="border-b-2 hover:border-white border-transparent duration-150 nav-link font-semibold">Home</a></li>
@@ -11,7 +11,7 @@
 <script setup>
 import { ref } from 'vue';
 const opacity = ref(0);
-const textColor = ref('text-white');
+const navClass = ref('text-white border-transparent');
 document.addEventListener("scroll", () => {
     if(window.scrollY < 201){
         opacity.value = `background-color: rgb(255 255 255 / ${Math.round(window.scrollY) / 2}%);`;
@@ -19,9 +19,9 @@ document.addEventListener("scroll", () => {
         opacity.value = 'background-color: rgb(255 255 255 / 100%);';
     }
     if(window.scrollY < 50){
-        textColor.value = 'text-white';
+        navClass.value = 'text-white border-transparent';
     } else {
-        textColor.value = 'text-black';
+        navClass.value = 'text-black border-blue-600';
     }
 
 
