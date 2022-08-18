@@ -3,7 +3,7 @@
         <div id="portfolio" class="pt-16 pb-3">
         <h1 class="text-4xl font-semibold text-center">Portfolio</h1>
     </div>
-    <div class="w-full grow bg-cover bg-right-top flex pt-12" :style="{'background-image': `url(${gunungan})`}">
+    <div class="w-full grow bg-cover bg-right-top flex mb-12" :style="{'background-image': `url(${gunungan})`}">
         <div class="bg-white/50 lg:bg-white shadow-md rounded-md rounded-l-none w-full mt-auto mb-5 lg:w-1/2 h-min py-5 pl-12 pr-24 flex flex-col justify-center">
             <h1 class="font-bold text-2xl">
                 <a href="https://toko-gunungan.com" target="_blank" class="flex items-center text-[#f3310e] hover:text-[#ff2600]">
@@ -13,7 +13,7 @@
                     </svg>
                 </a>
             </h1>
-            <p>An e-commerce website for a small business that sale snacks and gifts in Batu city</p>
+            <p class="font-semibold">An e-commerce website for a small business that sale snacks and gifts in Batu city</p>
         </div>        
     </div>
     </div> 
