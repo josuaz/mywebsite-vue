@@ -4,7 +4,7 @@
         <ul v-scroll-spy-active v-scroll-spy-link class="my-auto md:flex flex-row mx-auto hidden">
             <li :class="tab"><a href="#home" class="border-b-2 hover:border-white border-transparent duration-150 nav-link font-semibold">Home</a></li>
             <li :class="tab" class="mx-5"><a href="#portfolio" class="border-b-2 hover:border-white border-transparent duration-150 nav-link font-semibold">Portfolio</a></li>
-            <li :class="tab"><a href="#contact" class="border-b-2 hover:border-white border-transparent duration-150 nav-link font-semibold">Contact</a></li>
+            <li :class="tab"><a href="#about" class="border-b-2 hover:border-white border-transparent duration-150 nav-link font-semibold">About</a></li>
         </ul>
     </div>
 </template>

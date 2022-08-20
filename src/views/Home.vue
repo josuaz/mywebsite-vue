@@ -3,6 +3,7 @@
     <div v-scroll-spy>
         <hero/>
         <portfolio />
+        <about />
         <contact />
     </div>
 </template>
@@ -11,6 +12,7 @@
 import navbar from '../components/Navbar.vue'
 import hero from '../components/Hero.vue'
 import portfolio from '../components/Portfolio.vue'
+import about from '../components/About.vue'
 import contact from '../components/Contact.vue'
 </script>
 
