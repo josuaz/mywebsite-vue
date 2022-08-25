@@ -20,13 +20,13 @@
                 <img :src="img" class="w-48 h-48 object-cover object-top rounded-full bg-white p-1 mx-auto lg:mr-auto lg:ml-6" alt="">
                 <div class="w-full justify-around lg:justify-end md:w-min grow flex-row flex pb-5 pr-5 relative">
                     <div class="mt-auto p-2 pb-1 mr-5">
-                        <button class="rounded-full font-semibold peer flex flex-row p-2 duration-300 bg-gradient-to-r from-transparent to-transparent hover:text-white hover:from-blue-900 hover:to-purple-900">Projects
+                        <button class="font-semibold peer flex mb-1 flex-row duration-150 hover:border-black border-b-2 border-transparent">Projects
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
                         </button>
                     </div>
-                    <button class="rounded-full h-min mt-auto font-semibold pb-3 p-2 duration-300 bg-gradient-to-r from-transparent to-transparent hover:text-white hover:from-blue-900 hover:to-purple-900">Hire me!</button>
+                    <button class="rounded-full h-min mt-auto font-semibold p-2 duration-150 bg-gradient-to-r hover:-translate-y-1 text-white from-blue-900 to-purple-900">Hire me!</button>
                 </div>
                 
             </div>

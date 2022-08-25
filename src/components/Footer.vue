@@ -4,7 +4,7 @@
             <h1 class="text-4xl font-semibold text-center lg:text-start">Joshua Aliansa</h1>
         </div>
         <div class="w-full lg:w-1/2">
-            <h1 class="text-2xl font-semibold text-center">Social Media</h1>
+            <h1 class="text-2xl font-semibold text-center">Find me on:</h1>
             <div class="flex justify-around flex-row flex-wrap mt-5 lg:mt-0">
             <a href="https://www.instagram.com/josua.aliansa" target="_blank">
                 <button class="p-2 rounded-full hover:bg-white/20 duration-150">
