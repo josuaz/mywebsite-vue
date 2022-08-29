@@ -4,7 +4,6 @@
         <hero/>
         <portfolio />
         <about />
-        <footers />
     </div>
 </template>
 
@@ -13,7 +12,6 @@ import navbar from '../components/Navbar.vue'
 import hero from '../components/Hero.vue'
 import portfolio from '../components/Portfolio.vue'
 import about from '../components/About.vue'
-import footers from '../components/Footer.vue'
 </script>
 
 <style>
