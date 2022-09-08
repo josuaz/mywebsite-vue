@@ -6,11 +6,11 @@
         <div class="w-full lg:w-1/2 flex flex-col p-1">
             <h1 class="text-xl font-semibold text-black p-2 rounded-md rounded-b-none bg-white">About me</h1>
             <p class="text-lg text-black p-2 pt-0 rounded-lg rounded-t-none border-t-2 border-white bg-neutral-100">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur incidunt ex minima nobis atque labore asperiores reprehenderit optio, itaque, dolore ipsum distinctio, error illo blanditiis voluptate natus porro dicta. Iste dolor atque ad eos odit fugiat recusandae molestiae harum a pariatur. Quaerat soluta quasi enim, libero iure nostrum corrupti in non porro commodi ex, ea a necessitatibus distinctio. Doloremque quae dicta sed pariatur natus facilis exercitationem est ipsum, ratione delectus consectetur deserunt accusamus ad, nihil iure mollitia totam necessitatibus earum aspernatur odit distinctio blanditiis soluta omnis modi. Inventore autem laborum voluptatem itaque corrupti cupiditate harum officia odit corporis, explicabo totam.
+                Hi, I'm Joshua Aliansa Pranajaya
             </p>
-            <div class="w-full mt-auto">
+            <div class="w-full lg:mt-auto mt-2">
                 <h1 class="text-2xl font-semibold text-center lg:text-start lg:ml-2">Find me on:</h1>
-                <div class="flex justify-around lg:justify-start flex-row flex-wrap mt-5 lg:mt-0">
+                <div class="flex justify-around lg:justify-start flex-row flex-wrap mt-2 lg:mt-0">
                     <a href="https://www.instagram.com/josua.aliansa" target="_blank">
                         <button class="p-2 rounded-full hover:bg-white/20 duration-150">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="h-8 w-8" viewBox="0 0 16 16">
