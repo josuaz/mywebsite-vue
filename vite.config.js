@@ -3,6 +3,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/mywebsite-vue/',
+    publicPath: process.env.NODE_ENV === 'production' ?
+        '/mywebsite-vue/' :
+        '/',
     plugins: [vue()]
 })
